@@ -64,8 +64,8 @@ int conditional(int x, int y, int z) {
 //7
 int bang(int x)
 {
-   int a = (x | (~x+1));
-  return (a >> 31) + 1;
+    int z=(x|(~x+1));
+    return z+1;
 }
 
 
